@@ -1,0 +1,11 @@
+compile mac
+1.配置编译环境
+  1.1 安装brew
+  1.2 make packages
+2.修改makefile
+  2.1 openssl : 去掉--cross-compile-prefix=$(CHOST)-
+  2.2 ncurses : 去掉AR=$(CHOST)-ar 
+  2.3 quickfix:失败
+  2.4 libuv:失败
+compile ubuntu[推荐]
+  1.1 openssl : 去掉--cross-compile-prefix=$(CHOST)-
